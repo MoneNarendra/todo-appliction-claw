@@ -1,0 +1,94 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #ff8856;
+}
+
+.header-inner-container {
+  width: 90%;
+  max-width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-log-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 40px;
+}
+
+.todo-heading {
+  margin-left: 10px;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: bold;
+  color: #f74933;
+}
+
+.profile-container {
+  border: 2px solid #f74933;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  margin: 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-name {
+  font-family: "Roboto";
+  font-size: 20px;
+  color: #ff8856;
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.button-ele {
+  width: 90px;
+  padding: 5px;
+  border: 2px solid #ff8856;
+  font-family: "Roboto";
+  font-size: 15px;
+  background-color: transparent;
+  color: #f74933;
+  border-radius: 8px;
+}
+
+.profile-name-text {
+  font-family: "Roboto";
+  font-size: 12px;
+}
+
+.delete-btn {
+  font-size: 12px;
+}
+
+.user-details-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.close-btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close-btn {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

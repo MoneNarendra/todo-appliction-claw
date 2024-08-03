@@ -1,0 +1,32 @@
+.auth-buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.top-container {
+  border: 2px solid #ff8856;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.auth-button {
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  background-color: #ffffff;
+  border: none;
+  color: #ff8856;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid #ff8856;
+}
+
+.active-btn {
+  background-color: #ff8856;
+  color: #ffffff;
+}

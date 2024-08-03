@@ -1,0 +1,75 @@
+.todo-bottom-container {
+  display: flex;
+  justify-content: center;
+}
+.todo-bottom-inner-container {
+  width: 90%;
+  max-width: 1110px;
+}
+
+.add-todo-ele {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.add-input-ele {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid #ff8856;
+  border-radius: 8px;
+  outline: none;
+}
+
+.add-button {
+  width: 50px;
+  padding: 10px;
+  background-color: transparent;
+  font-family: "Roboto";
+  border: 2px solid #ff8856;
+  color: #ff8856;
+  border-radius: 8px;
+}
+
+.filter-buttons-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.filter-buttons {
+  list-style-type: none;
+  display: flex;
+}
+
+.todo-filter-btns {
+  background-color: transparent;
+  border: 2px solid #ff8856;
+  color: #ff8856;
+  margin-right: 5px;
+  border-radius: 8px;
+  height: 30px;
+}
+
+.active-btn {
+  background-color: #ff8856;
+  color: #ffffff;
+}
+
+.todo-list-bg-container {
+  display: flex;
+  justify-content: center;
+}
+
+.todo-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;  
+}

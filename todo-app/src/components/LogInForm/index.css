@@ -1,0 +1,94 @@
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Roboto";
+  font-size: 25px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: "Roboto";
+  font-size: 15px;
+}
+
+.form-group input {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+}
+
+.button-login {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff8856;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .login-form {
+    padding: 10px;
+  }
+
+  .form-group input {
+    width: calc(100% - 10px);
+  }
+
+  button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+.error-msg {
+  font-family: "Roboto";
+  color: #b20000;
+  font-size: 13px;
+}
+
+.show-password-contianer {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  height: 12px;
+  width: 12px;
+  margin-right: 5px;
+  margin-top: 0px;
+}
+
+.show-password {
+  font-family: "Roboto";
+  font-size: 13px;
+  color: #000000;
+}

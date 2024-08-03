@@ -1,0 +1,55 @@
+.completed-ask {
+  text-decoration: line-through;
+}
+
+.icons {
+  font-size: 18px;
+  color: #ff8856;
+}
+
+.icons-2 {
+  font-size: 25px;
+}
+
+.btn-icon {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.edit-input-element {
+  padding: 5px;
+  outline: none;
+  width: 100%;
+  border: 1px solid #ff8856;
+  border-radius: 8px;
+}
+
+.todo-list-item {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-task-contianer {
+  width: 50%;
+}
+
+.todo-items-checkbox {
+  height: 15px;
+  width: 15px;
+}
+
+.todo-task-text {
+  font-family: "Roboto";
+  font-size: 15px;
+  color: #ff8856;
+}
+
+.delete-edit-btns-contianer {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
