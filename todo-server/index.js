@@ -132,7 +132,7 @@ app.post("/todo/add/", AuthontecateUser, async (request, response) => {
       );`;
 
   const dbResponse = await db.run(addTodoQuery);
-  response.send("created");
+  response.send(JSON.stringify("created"));
 });
 
 //All todos
@@ -153,7 +153,7 @@ app.delete("/todo/delete/:id/", AuthontecateUser, async (request, response) => {
     WHERE
       id = '${id}';`;
   await db.run(deleteTodoQuery);
-  response.send("Todo Deleted Successfully");
+  response.send(JSON.stringify("Todo Deleted Successfully"));
 });
 
 // Upadate Todo
@@ -171,7 +171,7 @@ app.put("/todo/update/:id", AuthontecateUser, async (request, response) => {
     WHERE
       id = '${id}';`;
   await db.run(updateTodoQuery);
-  response.send("Todo Updated Successfully");
+  response.send(JSON.stringify("Todo Updated Successfully"));
 });
 
 // User Details
@@ -189,5 +189,5 @@ app.delete("/todo/deleteUser/", AuthontecateUser, async (request, response) => {
   await db.run(deleteUserQuery);
   const deleteUserTableQuery = `DROP TABLE ${request.username}`;
   await db.run(deleteUserTableQuery);
-  response.send("deleted Succfully");
+  response.send(JSON.stringify("deleted Succfully"));
 });
